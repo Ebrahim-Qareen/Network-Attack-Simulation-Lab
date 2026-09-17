@@ -1,122 +1,123 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Eight scenarios mapped to MITRE ATT&amp;CK">
 <title>Eight scenarios mapped to MITRE ATT&amp;CK</title>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111C33"/></linearGradient>
-<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
-<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1E2A45" stroke-width="1"/></pattern>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#131720"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#252b38" stroke-width="1"/></pattern>
 <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect width="1200" height="420" rx="16" fill="url(#bg)"/>
+<rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="16" fill="none" stroke="#252b38" stroke-width="1.5"/>
 <rect width="1200" height="420" rx="16" fill="url(#grid)" opacity="0.55"/>
 <rect x="0" y="0" width="6" height="420" rx="3" fill="url(#accent)"/>
-<text x="34" y="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#E2E8F0">Scenario map</text>
-<text x="34" y="60" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">8 attacks · each ends with the Snort alert, the pfSense view and the analyst conclusion</text>
+<text x="34" y="38" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#e4e8ee">Scenario map</text>
+<text x="34" y="60" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#a0aab6">8 attacks · each ends with the Snort alert, the pfSense view and the analyst conclusion</text>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.0s" dur="0.5s" fill="freeze"/>
 <g transform="translate(34,90)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#3B82F6"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">Recon scan</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">nmap</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1046</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#3B82F6" fill-opacity="0.18" stroke="#3B82F6" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#3B82F6" text-anchor="middle">#1</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#3b82f6"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">Recon scan</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">nmap</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1046</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#3b82f6" text-anchor="middle">#1</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="0.5s" fill="freeze"/>
 <g transform="translate(314,90)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#EF4444"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">SYN flood</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">hping3</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1499.0</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#EF4444" fill-opacity="0.18" stroke="#EF4444" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#EF4444" text-anchor="middle">#2</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#e63946"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#e63946" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">SYN flood</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">hping3</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1499.001</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#e63946" fill-opacity="0.18" stroke="#e63946" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#e63946" text-anchor="middle">#2</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.5s" fill="freeze"/>
 <g transform="translate(594,90)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#EF4444"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#EF4444" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">ICMP / UDP flood</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">hping3 · nping</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1498.0</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#EF4444" fill-opacity="0.18" stroke="#EF4444" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#EF4444" text-anchor="middle">#3</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#e63946"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#e63946" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">ICMP / UDP flood</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">hping3 · nping</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1498.001</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#e63946" fill-opacity="0.18" stroke="#e63946" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#e63946" text-anchor="middle">#3</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.4s" dur="0.5s" fill="freeze"/>
 <g transform="translate(874,90)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#F59E0B"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">ARP spoof / MITM</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">arpspoof · ettercap</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1557.0</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#F59E0B" fill-opacity="0.18" stroke="#F59E0B" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#F59E0B" text-anchor="middle">#4</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#fbbf24"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">ARP spoof / MITM</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">arpspoof · ettercap</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1557.002</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#fbbf24" text-anchor="middle">#4</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.5s" fill="freeze"/>
 <g transform="translate(34,208)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#F59E0B"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">DNS spoof</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">ettercap · dnsmasq</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1557 · T1071.0</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#F59E0B" fill-opacity="0.18" stroke="#F59E0B" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#F59E0B" text-anchor="middle">#5</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#fbbf24"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">DNS spoof</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">ettercap · dnsmasq</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1557 · T1071.004</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#fbbf24" fill-opacity="0.18" stroke="#fbbf24" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#fbbf24" text-anchor="middle">#5</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur="0.5s" fill="freeze"/>
 <g transform="translate(314,208)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#A78BFA"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">DNS tunnelling</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">iodine · dnscat2</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1071.0 · T1048</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#A78BFA" fill-opacity="0.18" stroke="#A78BFA" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#A78BFA" text-anchor="middle">#6</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#a78bfa"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">DNS tunnelling</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">iodine · dnscat2</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1071.004 · T1048</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#a78bfa" text-anchor="middle">#6</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.5s" fill="freeze"/>
 <g transform="translate(594,208)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#A78BFA"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">C2 beacon</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">msfvenom · handler</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1071.0 · T1571</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#A78BFA" fill-opacity="0.18" stroke="#A78BFA" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#A78BFA" text-anchor="middle">#7</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#a78bfa"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">C2 beacon</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">msfvenom · handler</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1071.001 · T1571</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#a78bfa" fill-opacity="0.18" stroke="#a78bfa" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#a78bfa" text-anchor="middle">#7</text>
 </g>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.05s" dur="0.5s" fill="freeze"/>
 <g transform="translate(874,208)">
-<rect width="262" height="92" rx="10" fill="#0F172A" stroke="#1E3A5F" stroke-width="1.5"/>
-<rect width="4" height="92" rx="2" fill="#22D3EE"/>
-<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
-<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">Brute force</text>
-<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">hydra</text>
-<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#94A3B8">T1110</text>
-<rect x="230" y="8" width="24" height="16" rx="8" fill="#22D3EE" fill-opacity="0.18" stroke="#22D3EE" stroke-opacity="0.6"/>
-<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#22D3EE" text-anchor="middle">#8</text>
+<rect width="262" height="92" rx="10" fill="#1a1f2a" stroke="#333b4c" stroke-width="1.5"/>
+<rect width="4" height="92" rx="2" fill="#22d3ee"/>
+<g transform="translate(14,12)"><path d="M6 26V3M6 4h16l-4 5 4 5H6" fill="none" stroke="#22d3ee" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="52" y="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#e4e8ee">Brute force</text>
+<text x="52" y="44" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">hydra</text>
+<text x="52" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#a0aab6">T1110</text>
+<rect x="230" y="8" width="24" height="16" rx="8" fill="#22d3ee" fill-opacity="0.18" stroke="#22d3ee" stroke-opacity="0.6"/>
+<text x="242.0" y="20" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9.5" font-weight="700" fill="#22d3ee" text-anchor="middle">#8</text>
 </g>
 </g>
-<circle cx="40" cy="336" r="5" fill="#3B82F6"/>
-<text x="52" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Recon</text>
-<circle cx="123" cy="336" r="5" fill="#EF4444"/>
-<text x="135" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Denial of service</text>
-<circle cx="290" cy="336" r="5" fill="#F59E0B"/>
-<text x="302" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Man in the middle</text>
-<circle cx="457" cy="336" r="5" fill="#A78BFA"/>
-<text x="469" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#94A3B8">C2 · tunnelling</text>
-<circle cx="610" cy="336" r="5" fill="#22D3EE"/>
-<text x="622" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#94A3B8">Credential access</text>
-<text x="600" y="380" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#94A3B8" text-anchor="middle">Snort custom rules: SID 1000001+  ·  suppressions documented  ·  IPS block per scenario</text>
-<text x="34" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#64748B">Network-Attack-Simulation-Lab · assets/readme/scenarios.svg</text>
+<circle cx="40" cy="336" r="5" fill="#3b82f6"/>
+<text x="52" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#a0aab6">Recon</text>
+<circle cx="123" cy="336" r="5" fill="#e63946"/>
+<text x="135" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#a0aab6">Denial of service</text>
+<circle cx="290" cy="336" r="5" fill="#fbbf24"/>
+<text x="302" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#a0aab6">Man in the middle</text>
+<circle cx="457" cy="336" r="5" fill="#a78bfa"/>
+<text x="469" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#a0aab6">C2 · tunnelling</text>
+<circle cx="610" cy="336" r="5" fill="#22d3ee"/>
+<text x="622" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11.5" fill="#a0aab6">Credential access</text>
+<text x="600" y="380" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" fill="#a0aab6" text-anchor="middle">Snort custom rules: SID 1000001+  ·  suppressions documented  ·  IPS block per scenario</text>
+<text x="34" y="406" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#768290">Network-Attack-Simulation-Lab · assets/readme/scenarios.svg</text>
 </svg>
